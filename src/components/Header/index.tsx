@@ -1,13 +1,15 @@
 import styled from "@emotion/styled/types/base"
-import { CabecalhoContainer, Logo } from "./Cabecalho.style"
+import { HeaderContainer, Logo } from "./Header.style"
 
-const Cabecalho= ()=> {
-    return (<CabecalhoContainer> 
+const Header= ()=> {
+    return (
+    <HeaderContainer> 
         <div>
             <Logo src='imgs/myteacher.png'/>
             <p> Destruindo sonhos e construíndo caráter.</p>
         </div>
-        </CabecalhoContainer>)
+        </HeaderContainer>
+        )
 }
 
-export default Cabecalho
+export default Header
